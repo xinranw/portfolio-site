@@ -9,7 +9,7 @@ import meetComcastIpad from "./meetcomcast-ipad.png";
 const PortfolioItem = ({ imgSrc, title, info }) => (
   <div className="col-sm-6 portfolio-item">
     <a href="">
-      <img className="img-portfolio img-responsive" src={imgSrc} />
+      <img className="img-portfolio img-responsive" src={imgSrc} alt={title} />
       <h3 className="portfolio-title">{title}</h3>
       <div className="portfolio-info">
         <div className="line" />
@@ -49,8 +49,8 @@ const Portfolio = () => {
     <section id="projects" className="portfolio">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 text-center">
-            <h2>My Work</h2>
+          <div className="col-lg-12 text-center portfolio-section-title-block">
+            <h2 className="section-title">My Work</h2>
             <hr className="small" />
           </div>
           <div className="col-lg-12">

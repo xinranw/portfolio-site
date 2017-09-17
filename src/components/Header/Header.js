@@ -9,7 +9,7 @@ const Header = () => {
     <header>
       <nav className="navigation">
         <div className="container-fluid">
-          <ul className="nav text-center">
+          <ul className="nav justify-content-center">
             <li>
               <Link to="/">Home</Link>
             </li>
