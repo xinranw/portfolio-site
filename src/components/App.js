@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
-import Header from './Header'
-import Main from './Main'
+import React, { Component } from "react";
+import "./App.scss";
+import { Navbar, Jumbotron, Button } from "react-bootstrap";
+import Header from "./Header/Header";
+import Main from "./Main";
 
 const App = () => (
   <div>
     <Header />
     <Main />
   </div>
-)
+);
 
 // class App extends Component {
 //   render() {

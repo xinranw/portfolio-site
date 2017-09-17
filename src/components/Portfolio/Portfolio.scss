@@ -1,0 +1,63 @@
+@import "./../style-guide/typography.scss";
+
+.portfolio {
+  padding: 50px 0;
+  font-family: $quicksand;
+}
+
+.portfolio-item {
+  color: black;
+  a {
+    color: black;
+  }
+
+  &:hover {
+    a {
+      text-decoration: none;
+    }
+
+    .line {
+      background-position: left 50%;
+    }
+  }
+
+  .line {
+    width: 90px;
+    margin-right: 20px;
+    float: left;
+    background: linear-gradient(to left, #ccc 50%, #463f3d 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 3px;
+    background-position: right 50%;
+    transition: background-position 0.4s ease-out;
+  }
+}
+
+.portfolio-title {
+  margin-left: 30px;
+  padding-left: 0px;
+  letter-spacing: 0.05em;
+  // margin-top: -10px;
+}
+
+.portfolio-info {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+
+  margin-left: 30px;
+  padding-left: 0px;
+
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+.img-portfolio:hover {
+  opacity: 0.8;
+}
