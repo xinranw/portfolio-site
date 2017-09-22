@@ -4,7 +4,6 @@ import Home from "./Home/Home";
 import Home2 from "./Home/Home2";
 import Portfolio from "./Portfolio/Portfolio";
 import Resume from "./Resume/Resume";
-import xinranResume from "./Resume/xinran_wang_resume_2017_digital.pdf";
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -14,8 +13,8 @@ import xinranResume from "./Resume/xinran_wang_resume_2017_digital.pdf";
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/home2" component={Home2} />
+      <Route exact path="/" component={Home2} />
+      <Route exact path="/home1" component={Home} />
       <Route path="/projects" component={Portfolio} />
       <Route path="/resume" component={Resume} />
     </Switch>
