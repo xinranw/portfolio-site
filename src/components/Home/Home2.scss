@@ -1,0 +1,52 @@
+@import "./../style-guide/_typography.scss";
+@import "./../style-guide/_colors.scss";
+
+#title {
+  font-family: $montserrat;
+  h1 {
+    font-size: 5rem;
+    line-height: 6.75rem;
+    font-weight: 400;
+  }
+}
+
+#description {
+  p,
+  a {
+    font-family: $montserrat;
+    font-weight: 300;
+    font-size: 1.9rem;
+  }
+
+  .btn {
+    border-radius: 0;
+    // color: $blue;
+  }
+}
+
+.pentagon {
+  position: relative;
+  padding: 180px 0;
+}
+
+.pentagon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $blue;
+  background-size: cover;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 20% 100%);
+}
+
+// .pentagon:before {
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   background-color: #39cccc;
+//   background-size: cover;
+//   clip-path: polygon(40% 0, 100% 0, 100% 100%, 20% 100%);
+// }

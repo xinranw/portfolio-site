@@ -49,12 +49,12 @@ const Portfolio = () => {
     <section id="projects" className="portfolio">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 text-center portfolio-section-title-block">
+          {/* <div className="col-lg-12 text-center portfolio-section-title-block">
             <h2 className="section-title">My Work</h2>
             <hr className="small" />
-          </div>
+          </div> */}
           <div className="col-lg-12">
-            <div className="row">{portfolioItems}</div>
+            <div className="row justify-content-center">{portfolioItems}</div>
           </div>
         </div>
       </div>

@@ -4,3 +4,15 @@ $montserrat: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 .section-title {
   font-family: $montserrat;
 }
+
+h1,
+h2,
+h3 {
+  font-family: $montserrat;
+}
+
+div,
+p,
+a {
+  font-family: $quicksand;
+}

@@ -4,13 +4,13 @@ import "./Home.scss";
 import faceIcon from "./face-icon.svg";
 
 const Home = () => (
-  <main className="center" id="home">
+  <div className="center" id="home">
     <div className="text-center">
       <img src={faceIcon} className="face-icon" alt="logo" />
       <h1 className="home-title">Hi, I'm Xinran!</h1>
       <h2 className="home-subtitle">Welcome to my site!</h2>
     </div>
-  </main>
+  </div>
 );
 
 export default Home;
