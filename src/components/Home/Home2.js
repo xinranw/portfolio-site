@@ -19,12 +19,14 @@ const Home2 = () => (
             products for people. From ideation to design to development, I want
             to be involved in every single step of the way.
           </p>
-          <p>
-            <Link to="/projects" type="button" className="btn btn-lg btn-light">
-              Come check out my work!
-              <i className="fa fa-chevron-right" />
-            </Link>
-          </p>
+          <Link
+            to="/projects"
+            type="button"
+            className="btn btn-lg btn-light project-link"
+          >
+            Come check out my work!
+            <i className="fa fa-chevron-right" />
+          </Link>
         </div>
       </div>
     </div>

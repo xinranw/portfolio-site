@@ -41,12 +41,10 @@
   clip-path: polygon(40% 0, 100% 0, 100% 100%, 20% 100%);
 }
 
-// .pentagon:before {
-//   content: "";
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-//   background-color: #39cccc;
-//   background-size: cover;
-//   clip-path: polygon(40% 0, 100% 0, 100% 100%, 20% 100%);
-// }
+.project-link {
+  border: none;
+
+  i {
+    margin-left: 15px;
+  }
+}
