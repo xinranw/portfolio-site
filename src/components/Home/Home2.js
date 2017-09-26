@@ -24,7 +24,7 @@ const Home2 = () => (
             type="button"
             className="btn btn-lg btn-light project-link"
           >
-            Come check out my work!
+            Check out my work!
             <i className="fa fa-chevron-right" />
           </Link>
         </div>
